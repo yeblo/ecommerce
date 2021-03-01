@@ -1,0 +1,28 @@
+.for_logo{
+    font-family: 'Pacifico',cursive;
+}
+
+.for_logo2{
+    font-family: 'Akaya Telivigala',Regular;
+}
+
+.line {
+    list-style: none;
+     /* width: 100%; */
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.line > li {
+    display: inline-block;
+     width: 15%;
+    /* height: 100%;  */
+    /* background-color: red; */
+}
+
+/* .line > li:nth-child(even) {
+    background-color: blue;
+} */
