@@ -44,7 +44,7 @@ class ProductController extends Controller
           $cart->user_id = Auth::user()->id;
           $cart->product_id=$req->product_id;
           $cart->save();
-          return redirect("/");
+          return redirect("/home");
       }
       else{
         return redirect("/login");
